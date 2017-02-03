@@ -16,7 +16,7 @@ public class zaliczenie {
 		Random random = new Random();		
 		int rozmiar = random.nextInt(10)+10;
 		int max1 = 0; 
-		int	max2 = 0;
+		int max2 = 0;
 		int sumaw = 0;
 		int sumak = 0;
 		int komorki = 0;
