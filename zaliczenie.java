@@ -28,7 +28,7 @@ public class zaliczenie {
      				tab1[i][j] = random.nextInt(100)+100;
      			}
      			else{
-     				if(random.nextInt(101) <= 35){
+     				if(random.nextInt(101) <=35){
      					tab1[i][j] = 1;
      				}
      				else{
@@ -57,6 +57,8 @@ public class zaliczenie {
  				}
      		}
 		}
+		double stosunek = (double)sumaw/sumak;
+		
 		boolean[][] tab2 = new boolean[rozmiar][rozmiar];
 		int sum = 0;
 		for (int i = 0; i<tab2.length; i++){
@@ -70,7 +72,6 @@ public class zaliczenie {
 				}
      		}
 		}
-		double stosunek = (double)sumaw/sumak;
 		
 		System.out.printf("Suma elementów dla których odpowiednia wartość w drugiej tabeli zapisana jest true %d.\n", sum);
 		System.out.printf("Dwie największe liczby zapisane w tabeli: %d i %d.\n", max1, max2);
@@ -79,3 +80,4 @@ public class zaliczenie {
 	
 		}
 }
+
