@@ -10,26 +10,20 @@ public class kalkulator {
 
 		int l1;
 		int l2;
-
 		char z;
-			System.out.println("Wciśnij ENTER żeby wyjść");
 
 		for(;;){
+			Scanner skan = new Scanner(System.in);
 		System.out.println("Podaj pierwsza liczbę");
-		Scanner skan = new Scanner(System.in);
-
 		l1 = skan.nextInt();
-
-		System.out.println("Podaj drugą liczbę");
-
-		l2 = skan.nextInt();
-
+		
 		System.out.println("Jakie działanie chcesz wykonać? Podaj znak");
-
 		z = skan.next().charAt(0);
 
+		System.out.println("Podaj drugą liczbę");
+		l2 = skan.nextInt();
 
-
+		
 		switch(z){
 		case '+':
 			System.out.println("Wynik:" +(l1+l2));
