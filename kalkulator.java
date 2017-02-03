@@ -7,7 +7,6 @@ public class kalkulator {
 
 	public static void main(String[] args) {
 
-
 		int l1;
 		int l2;
 		char z;
@@ -23,7 +22,6 @@ public class kalkulator {
 		System.out.println("Podaj drugą liczbę");
 		l2 = skan.nextInt();
 
-		
 		switch(z){
 		case '+':
 			System.out.println("Wynik:" +(l1+l2));
